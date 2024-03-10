@@ -1,0 +1,10 @@
+@charset "utf-8";
+body { margin:0; padding:0; }
+
+.header {background:#f6f6f6;}
+.wrapper{ width:980px; margin:auto;}
+.header_left{ color:#038eb9; font-size:18px; font-family: 'Open Sans', sans-serif;  font-weight: 600; float:left; width:50%; }
+.header_right{float:left; width:50%;}
+.clear{clear:both;}
+
+.header_left a{color:#038eb9;}
