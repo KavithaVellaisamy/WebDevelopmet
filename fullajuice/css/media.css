@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px){
+.wrapper{width:90%; max-width:100%;}	
+.about_left{float:none;margin:auto;text-align:center;}
+.about_left img{width:100%;}
+.about_right{float:none;margin:auto;text-align:center;width:100%;}
+.about_right p{text-align:justify;}	
+.address_sect{float:none;width:100%;margin:auto;}	
+.enquiry_sect{/*margin:0 3%; */width:100%;float:none;}
+.contact_form{margin:2% 0;}	
+.sidesubmit{text-align:center;}
+.side,.sides{width:100%;padding:8px 0;}	
+.abt_sect{margin:3% 0;}
+.sidename,.surname,.sideemail,.sidemessage{width:96%}
+}
+@media screen and (min-width: 770px) and (max-width: 823px){
+.wrapper{width:90%; max-width:100%;}
+.about_left{float:none;margin:auto;text-align:center;}
+.about_left img{width:100%;}
+.about_right{float:none;margin:auto;text-align:center;width:100%;}
+.about_right p{text-align:justify;}	
+.address_sect{float:none;width:100%;margin:auto;}	
+.enquiry_sect{ width:100%;float:none;}
+.sidesubmit{text-align:center;}
+.side,.sides{width:100%;padding:10px 0;}	
+.abt_sect{margin:3% 0;}
+}
+@media screen and (min-width: 825px) and (max-width: 1024px){
+.sidename,.surname{width:88%;}
+.sideemail,.sidemessage{width:95%;}
+.sidesubmit{text-align:center;}
+}

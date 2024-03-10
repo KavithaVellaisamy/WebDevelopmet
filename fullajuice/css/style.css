@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0}
+body{font-family: 'Open Sans', sans-serif;}
+.outer_border{border:15px solid #f15e25; background: #1b3d1c;border-bottom:0px;}
+.wrapper{max-width:100%; width:980px; margin:auto;}
+.logo img {max-width: 100%;width: 100%;}
+.border_logo{border-bottom:5px solid #f15c24;}
+/*about us*/
+.aboutus{border-bottom:5px solid #f15c24;}
+.about_left{float:left; width:42%;margin:5% 0;margin-bottom:3%;}
+.about_right{float:right;width:58%;}
+.about_right h1{font-family: 'Sansita', sans-serif;font-weight:400; font-size:32px; color:#f15c24;padding:8px 0;margin:2% 0;}
+.about_right p {
+    line-height: 30px;
+    font-size: 18px;
+	color:#ffffff;
+    font-weight: 400;padding:5px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+	
+}
+.clear{clear:both;}
+/*addresss*/
+.footer_whole_sect{padding:3% 0;padding-bottom:2%;}
+.address_sect{float:left;width:35%;}
+.location h1,.contactno h1,.add_email h1,.enquiry_sect h1{font-family: 'Sansita', sans-serif;font-weight:400; font-size:36px; color:#f15c24;padding:8px 0;}
+.location,.contactno,.add_email {float: left;}
+.location img,.contactno img,.add_email img {display: inline-block;vertical-align: top; margin-top: 3px; margin-right: 15px;float: left;padding:25px 0;}
+.location p,.contactno p,.add_email p {
+    display: inline-block;font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 21px;
+	padding:25px 0;
+}
+/* .enquiry_sect{float:right;width:60%;} */
+.enquiry_sect{
+float:right;
+ width: 65%;
+ margin-bottom:25px;
+}
+.contact_form{margin-top:10px;}
+.contact_right h2{color: #f42d2f;font-family:'Roboto', sans-serif; font-size:28px; font-weight:400;}
+.side {
+    float: left;
+    width: 45%;
+margin-right: 37px;}
+.sidename,.surname {
+ font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 100%;
+    padding: 11px;padding-right:0px;
+    border: 1px solid #ffffff;
+	background:#1b3d1c;
+	border-radius:8px;
+	color:white;outline:0;
+}
+
+.name_err,.sur_err,.email_err,.address_err {
+    font-size: 15px;
+    color: #d20202;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.sides {
+    float: left;
+    width: 49%;
+}
+.sideemail::placeholder,.sidename::placeholder,.surname::placeholder{color:#ffffff;font-size:16px;font-weight:300;padding-left:2px;}
+.sideemail {
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ffffff;
+	background:#1b3d1c;
+	border-radius:8px;
+	color:white;padding-right:0px;outline:0;
+}
+.sidemessage {
+    margin: 5px 0;
+    width: 100%;
+    height: 130px;font-size:20px;font-weight:400;
+    padding: 11px;
+    margin-top: 15px;
+    border: 1px solid #ffffff;padding-right:0px;
+	background:#1b3d1c;border-radius:8px;color:white;outline:0;
+}
+label {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+	padding-left:10px;
+}
+.sidemail{padding:15px 0;}
+.sidesubmitbutton {
+    background:#1b3d1c;
+    padding: 8px 0;
+    color: #f15b22;
+  font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 150px;
+    border: none;border-radius:3px;
+	border:1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.sidesubmit {
+    text-align: right;
+}
+
+.sidesubmitbutton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #3a7a20;
+}
+/**/
+.copyright{background:#f15e25;}
+.copyright p{font-size: 18px;color: #000000; font-family: 'Open Sans', sans-serif;font-weight:400;text-align:center;padding:8px; }
+.highlight {
+    color: white !important;
+}
+.powerd p{font-size: 14px;padding:5px;}
+.copyright a{font-size: 14px;text-decoration:none;
+    color: #fff;}
